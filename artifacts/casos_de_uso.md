@@ -18,12 +18,15 @@
 11. Processamento de Pagamento 
 12. Geração de Relatórios
 
-### Diagrama de Caso de Uso###
+### Diagrama de Caso de Uso ###
 
-```plantuml 
+
+```mermaid
 @startuml 
 actor Cliente 
 actor Administrador
 
 @enduml
 ```
+
+
