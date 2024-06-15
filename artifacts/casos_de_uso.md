@@ -58,5 +58,5 @@ UC10 --> UC12 : include
 
 @enduml
 ```
-![Diagrama de Caso de Uso](artifacts/DiagramaDeCasoDeUso.svg)
+![Diagrama de Caso de Uso](DiagramaDeCasoDeUso.svg)
 
