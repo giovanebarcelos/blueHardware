@@ -95,3 +95,20 @@ ItemPedido "1" --> "1" Produto
 @enduml
 ```
 ![Diagrama de Class](DiagramaDeClasses.svg)
+
+**Explicação do Diagrama:**
+- **Produto**:
+  - Tem um relacionamento de associação com Categoria (um produto pode pertencer a várias categorias)
+- **Categoria**:
+  - Representa categorias de produtos
+- **Cliente**:
+  - Tem um relacionamento de composição com Endereco (um cliente pode ter vários endereços)
+- **Pedido**:
+  - Tem um relacionamento de composição com ItemPedido (um pedido pode ter vários itens)
+  - Tem um relacionamento de associação com Cliente (um pedido é feito por um cliente)
+  - Tem um relacionamento de associação com Endereço (um pedido tem um endereço de entrega)
+- **ItemPedido**:
+  - Tem um relacionamento de associação com Produto (um item pedido refere-se a um produto)
+- **Pagamento**:
+  - Tem um relacionamento de associação com Pedido (um pagamento refere-se a um pedido)
+
